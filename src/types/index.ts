@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export type Lang = 'es' | 'en'
 
 export interface Theme {
@@ -35,7 +36,7 @@ export interface EducationExperience {
 
 export interface WorkExperience {
   id: string
-  lines: string
+  lines?: string
   startAt: string
   location: string
   company: string
