@@ -1,4 +1,3 @@
-import * as React from 'react'
 import { cn } from '../../cn'
 import { useTheme } from '../../hooks/use-theme'
 import { StyleSheet, View } from '../../react-pdf'
