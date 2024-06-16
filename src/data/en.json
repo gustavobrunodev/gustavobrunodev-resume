@@ -1,0 +1,102 @@
+{
+  "lang": "en",
+  "techProfile": {
+    "id": "rec9sOqORNMskTURz",
+    "name": "Gustavo Bruno Gomes Teixeira",
+    "nickname": "Gustavo",
+    "freelanceRole": "Software Consultant",
+    "interests": [
+      "problem solving",
+      "clean code ",
+      "web development",
+      "api architecture"
+    ],
+    "location": "Brazil",
+    "website": "https://www.gustavobruno.dev/",
+    "email": "contato@gustavobruno.dev",
+    "github": "https://github.com/gustavobrunodev",
+    "linkedin": "https://www.linkedin.com/in/gustavobrunodev/",
+    "twitter": "https://x.com/gustavotxdev"
+  },
+  "techResume": {
+    "id": "recNxIiI11AEqGBYr",
+    "name": "EN - Soffware Engineer",
+    "aboutMe": "With nearly five years of experience as a software engineer, I've been involved in more than 20 different projects, including some with prominent companies in the Brazilian market. Throughout this journey, I've gained hands-on experience in applying best practices, creating value for companies through high-performance, scalable, and resilient applications.",
+    "published": true,
+    "lang": "en",
+    "langSkills": [
+      {
+        "id": "recTpOHHn2BeqGRUP",
+        "name": "Portuguese",
+        "scoreLabel": "Native",
+        "score": 5,
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      },
+      {
+        "id": "recfe8umspTPkDIYc",
+        "name": "English",
+        "scoreLabel": "Advanced",
+        "score": 4,
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      },
+      {
+        "id": "recfe8umspTPkDIYP",
+        "name": "Japanese",
+        "scoreLabel": "Intermediate",
+        "score": 3,
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      }
+    ],
+    "strengths": [
+      {
+        "id": "recwybFRNFP3O414U",
+        "name": "Self-taught Person",
+        "description": "Powered by Internet: Online Courses, Youtube, Blogs, etc.",
+        "icon": "search",
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      },
+      {
+        "id": "rec5Lg1zta2fW8yhC",
+        "name": "Creative",
+        "description": "Intelligence for sustainable solutions.",
+        "icon": "puzzle",
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      },
+      {
+        "id": "recdqRdiQAVbnApZE",
+        "name": "Cooperative",
+        "description": "Teamwork, with respect and passion for success.",
+        "icon": "cog",
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      }
+    ],
+    "keywords": "software,developer,javascript,nodejs",
+    "primaryColor": "#fa0050",
+    "workExperiences": [
+      {
+        "id": "reckmIvfl6DsDEaFt",
+        "title": "Sr. Software Engineer",
+        "company": "Zup Innovation",
+        "companyUrl": "https://www.zup.com.br/",
+        "location": "Remote",
+        "description": "Having the responsibility for developing various exchange products and services for the largest bank in Latin America, I created cutting-edge solutions to serve millions of customers who access the mobile app every day.\n\nAs the main frontend reference for the team, I created standards and guidelines collaboratively and assisted the entire team in building quality and scalable applications.",
+        "startAt": "2022-07-10",
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      }
+    ],
+    "educationExperiences": [
+      {
+        "id": "recQ9AkZJa5RVLOIp",
+        "title": "Control and Automation Engineering",
+        "almaMater": "Unit",
+        "startAt": "2015-03-01",
+        "endAt": "2019-12-31",
+        "location": "Aracaju-SE, Brazil",
+        "lines": "Robotics and Control and Automation Engineering",
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      }
+    ],
+    "title": "Sr. Software Engineer",
+    "createdAt": "2021-01-21"
+  }
+}
