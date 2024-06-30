@@ -80,7 +80,29 @@
         "companyUrl": "https://www.zup.com.br/",
         "location": "Remote",
         "description": "Having the responsibility for developing various exchange products and services for the largest bank in Latin America, I created cutting-edge solutions to serve millions of customers who access the mobile app every day.\n\nAs the main frontend reference for the team, I created standards and guidelines collaboratively and assisted the entire team in building quality and scalable applications.",
-        "startAt": "2022-07-10",
+        "startAt": "2023-04-01",
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      },
+      {
+        "id": "reckmIvfl6DsDEaFt",
+        "title": "Software Engineer",
+        "company": "Zup Innovation",
+        "companyUrl": "https://www.zup.com.br/",
+        "location": "Remote",
+        "description": "I worked on the development of one of the main products of the largest telecommunications company in Brazil. I participated in the design and creation of the Design System and a library of reusable components for all the company's web applications. I also promoted and implemented a microfrontend architecture for the applications.\n\nAs a result, we achieved:\n- More adequate separation of business contexts;\n- Greater scalability potential for teams;\n- Reuse of business rules with maintenance in a single codebase;\n- Lower development costs;\n- Better user experience.",
+        "startAt": "2022-07-01",
+        "endAt": "2023-04-01",
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      },
+      {
+        "id": "reckmIvfl6DsDEaFt",
+        "title": "Software Engineer",
+        "company": "Labsit",
+        "companyUrl": "https://www.labsit.io/",
+        "location": "Remote",
+        "description": "In this opportunity, I helped build from scratch, from conception to development, a white-label web application for the main product of one of the largest HealthTech companies in the Brazilian market.\n\nAdditionally, I worked on the maintenance and creation of new features for the mobile version of the application.",
+        "startAt": "2021-08-01",
+        "endAt": "2022-07-01",
         "Tech Resumes": ["recNxIiI11AEqGBYr"]
       }
     ],
