@@ -12,11 +12,11 @@
       "api architecture"
     ],
     "location": "Brazil",
-    "website": "https://www.gustavobruno.dev/",
+    "website": "https://www.gustavobruno.dev",
     "email": "contato@gustavobruno.dev",
     "github": "https://github.com/gustavobrunodev",
-    "linkedin": "https://www.linkedin.com/in/gustavobrunodev/",
-    "twitter": "https://x.com/gustavotxdev"
+    "linkedin": "https://www.linkedin.com/in/gustavobrunodev",
+    "twitter": "https://x.com/gustavobrunodev"
   },
   "techResume": {
     "id": "recNxIiI11AEqGBYr",
@@ -71,7 +71,7 @@
       }
     ],
     "keywords": "software,developer,javascript,nodejs",
-    "primaryColor": "#fa0050",
+    "primaryColor": "#4390e8",
     "workExperiences": [
       {
         "id": "reckmIvfl6DsDEaFt",
@@ -79,7 +79,7 @@
         "company": "Zup Innovation",
         "companyUrl": "https://www.zup.com.br/",
         "location": "Remote",
-        "description": "Having the responsibility for developing various exchange products and services for the largest bank in Latin America, I created cutting-edge solutions to serve millions of customers who access the mobile app every day.\n\nAs the main frontend reference for the team, I created standards and guidelines collaboratively and assisted the entire team in building quality and scalable applications.",
+        "description": "I was responsible for developing various foreign exchange products and services for the largest bank in Latin America, helping to build cutting-edge solutions to serve millions of customers who access the mobile app every day.\n\nAs the main frontend reference of the team, I created standards and guidelines collaboratively and assisted the entire team in building quality and scalable applications.",
         "startAt": "2023-04-01",
         "Tech Resumes": ["recNxIiI11AEqGBYr"]
       },
@@ -89,7 +89,7 @@
         "company": "Zup Innovation",
         "companyUrl": "https://www.zup.com.br/",
         "location": "Remote",
-        "description": "I worked on the development of one of the main products of the largest telecommunications company in Brazil. I participated in the design and creation of the Design System and a library of reusable components for all the company's web applications. I also promoted and implemented a microfrontend architecture for the applications.\n\nAs a result, we achieved:\n- More adequate separation of business contexts;\n- Greater scalability potential for teams;\n- Reuse of business rules with maintenance in a single codebase;\n- Lower development costs;\n- Better user experience.",
+        "description": "I worked on developing one of the main products of the largest telecommunications company in Brazil, serving millions of customers who use the services daily.\n\nI participated in the conception and creation of the Design System and the reusable component library for all the company's web applications. I also promoted and implemented a microfrontend architecture for the applications, ensuring lower development costs, greater scalability for teams, and a better user experience.",
         "startAt": "2022-07-01",
         "endAt": "2023-04-01",
         "Tech Resumes": ["recNxIiI11AEqGBYr"]
@@ -104,17 +104,39 @@
         "startAt": "2021-08-01",
         "endAt": "2022-07-01",
         "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      },
+      {
+        "id": "reckmIvfl6DsDEaFt",
+        "title": "Jr. Software Engineer",
+        "company": "Labsit",
+        "companyUrl": "https://www.labsit.io/",
+        "location": "Remote",
+        "description": "I worked on the mobile development of the main product of one of the largest HealthTechs in the Brazilian market, responsible for generating millions in revenue for the company in a B2B format.\n\nIn this experience, I had the opportunity to be one of the team members to propose and develop a major refactor in the application, aiming at restructuring the legacy code and the architectural project for better app performance. This ensured the resolution of many recurring bugs, leading to a higher app rating in stores, and provided developers with cleaner, clearer code, aiming at better standardization and consequently greater agility in developing new demands.",
+        "startAt": "2021-03-01",
+        "endAt": "2021-08-01",
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
+      },
+      {
+        "id": "reckmIvfl6DsDEaFt",
+        "title": "Jr. Full Stack Software Developer",
+        "company": "GetInfo",
+        "companyUrl": "https://www.getinfo.net.br/",
+        "location": "Remote",
+        "description": "I worked on the development of the Career Platform for the largest private university in the Northeast (Unit), as well as on the development of products and campaigns for the largest bank in the state of Sergipe (Banese).\n\nIn this opportunity, I was responsible for improving project maintainability and structuring, restructuring applications using software patterns, implementing best practices, and documenting projects.",
+        "startAt": "2019-10-01",
+        "endAt": "2021-03-01",
+        "Tech Resumes": ["recNxIiI11AEqGBYr"]
       }
     ],
     "educationExperiences": [
       {
         "id": "recQ9AkZJa5RVLOIp",
-        "title": "Control and Automation Engineering",
-        "almaMater": "Unit",
-        "startAt": "2015-03-01",
-        "endAt": "2019-12-31",
+        "title": "Full Stack Development",
+        "almaMater": "Institute of Management and IT",
+        "startAt": "2020-06-01",
+        "endAt": "2020-12-31",
         "location": "Aracaju-SE, Brazil",
-        "lines": "Robotics and Control and Automation Engineering",
+        "lines": "Gained skills in full-stack application development, encompassing backend, frontend, NoSQL data persistence, version control, and cloud deployment. Used industry-standard tools to ensure efficient and high-quality development.",
         "Tech Resumes": ["recNxIiI11AEqGBYr"]
       }
     ],
