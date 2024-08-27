@@ -145,11 +145,6 @@ function AppDocument({ techProfile, techResume }: AppDocumentProps) {
             <Section title={s["title.findMe"]} spacing={0}>
               <View style={{ flexDirection: "row" }}>
                 <SocialMedia
-                  name="Twitter"
-                  profileUrl={techProfile.twitter}
-                  style={{ flex: 1 }}
-                />
-                <SocialMedia
                   name="Github"
                   profileUrl={techProfile.github}
                   style={{ flex: 1 }}
