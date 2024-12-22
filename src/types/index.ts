@@ -1,102 +1,101 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-export type Lang = 'es' | 'en'
+export type Lang = "en" | "pt_BR" | "jp_JP";
 
 export interface Theme {
   colors: {
-    text: string
-    gray: string
-    ligthGray: string
-    primary: string
-  }
+    text: string;
+    gray: string;
+    ligthGray: string;
+    primary: string;
+  };
 }
 
 export interface LangSkill {
-  id: string
-  name: string
-  scoreLabel: string
-  score: number
+  id: string;
+  name: string;
+  scoreLabel: string;
+  score: number;
 }
 
 export interface Strength {
-  id: string
-  name: string
-  description: string
-  icon: string
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
 }
 
 export interface EducationExperience {
-  id: string
-  title: string
-  location: string
-  lines: string
-  endAt: string
-  startAt: string
-  almaMater: string
+  id: string;
+  title: string;
+  location: string;
+  lines: string;
+  endAt: string;
+  startAt: string;
+  almaMater: string;
 }
 
 export interface WorkExperience {
-  id: string
-  lines?: string
-  startAt: string
-  location: string
-  company: string
-  companyUrl?: string
-  description?: string
-  title: string
-  endAt?: string
+  id: string;
+  lines?: string;
+  startAt: string;
+  location: string;
+  company: string;
+  companyUrl?: string;
+  description?: string;
+  title: string;
+  endAt?: string;
 }
 
 export interface TechGroup {
-  id: string
-  title: string
-  tags: string[]
+  id: string;
+  title: string;
+  tags: string[];
 }
 
 export interface WorkProject {
-  id: string
-  description: string
-  title: string
-  company: string
-  lines?: string
-  startAt: string
-  location: string
-  endAt?: string
+  id: string;
+  description: string;
+  title: string;
+  company: string;
+  lines?: string;
+  startAt: string;
+  location: string;
+  endAt?: string;
 }
 
 export interface TechResume {
-  id: string
-  published: boolean
-  keywords: string
-  title: string
-  lang: string
-  name: string
-  primaryColor: string
-  aboutMe: string
-  createdAt: string
-  avatarUrl?: string
-  langSkills: LangSkill[]
-  strengths: Strength[]
-  educationExperiences: EducationExperience[]
-  workExperiences: WorkExperience[]
-  techGroups?: TechGroup[]
-  workProjects?: WorkProject[]
+  id: string;
+  published: boolean;
+  keywords: string;
+  title: string;
+  lang: string;
+  name: string;
+  primaryColor: string;
+  aboutMe: string;
+  createdAt: string;
+  avatarUrl?: string;
+  langSkills: LangSkill[];
+  strengths: Strength[];
+  educationExperiences: EducationExperience[];
+  workExperiences: WorkExperience[];
+  techGroups?: TechGroup[];
+  workProjects?: WorkProject[];
   // biome-ignore lint/suspicious/noExplicitAny: needed for airtable cast
-  [key: string]: any
+  [key: string]: any;
 }
 
 export interface TechProfile {
-  id: string
-  website: string
-  location: string
-  twitter: string
-  github: string
-  phone?: string
-  name: string
-  email: string
-  freelanceRole: string
-  interests: string[]
-  linkedin: string
-  nickname: string
+  id: string;
+  website: string;
+  location: string;
+  github: string;
+  phone?: string;
+  name: string;
+  email: string;
+  freelanceRole: string;
+  interests: string[];
+  linkedin: string;
+  nickname: string;
   // biome-ignore lint/suspicious/noExplicitAny: needed for airtable cast
-  [key: string]: any
+  [key: string]: any;
 }
