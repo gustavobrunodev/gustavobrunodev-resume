@@ -13,6 +13,8 @@ export interface HeadingProps {
     phone?: string
     email: string
     website: string
+    github?: string,
+    linkedin?: string,
     location: string
   }
 }
@@ -59,7 +61,7 @@ export function Heading({
   subtitle,
   avatarUrl,
   avatarSize = 100,
-  information: { phone, email, website, location },
+  information: { phone, email, website, github, linkedin, location },
 }: HeadingProps) {
   const theme = useTheme()
 
@@ -79,9 +81,21 @@ export function Heading({
           <Link src={`mailto:${email}`} style={styles.link}>
             <IconText text={email} iconName="atSymbol" />
           </Link>
+
+
           <Link src={website} style={styles.link}>
             <IconText text={website} iconName="link" />
           </Link>
+          {github ? (
+            <Link src={github} style={styles.link}>
+              <IconText text={`@${github.split('/').splice(-1)}`} iconName="github" />
+            </Link>
+          ) : null}
+          {linkedin ? (
+            <Link src={linkedin} style={styles.link}>
+              <IconText text={`@${linkedin.split('/').splice(-1)}`} iconName="linkedin" />
+            </Link>
+          ) : null}
           <IconText text={location} iconName="location" />
         </View>
       </View>

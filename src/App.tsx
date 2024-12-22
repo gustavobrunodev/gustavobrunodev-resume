@@ -10,11 +10,9 @@ import {
   Language,
   ListItem,
   Resume,
-  Section,
-  SocialMedia,
-  TechGroup,
+  Section, TechGroup,
   Watermark,
-  WorkPost,
+  WorkPost
 } from "./ui";
 
 export interface AppDocumentProps {
@@ -67,6 +65,8 @@ function AppDocument({ techProfile, techResume }: AppDocumentProps) {
           information={{
             phone: techProfile.phone,
             email: techProfile.email,
+            github: techProfile.github,
+            linkedin: techProfile.linkedin,
             website: techProfile.website,
             location: techProfile.location,
           }}
@@ -141,20 +141,6 @@ function AppDocument({ techProfile, techResume }: AppDocumentProps) {
                   iconName={strength.icon as IconName}
                 />
               ))}
-            </Section>
-            <Section title={s["title.findMe"]} spacing={0}>
-              <View style={{ flexDirection: "row" }}>
-                <SocialMedia
-                  name="Github"
-                  profileUrl={techProfile.github}
-                  style={{ flex: 1 }}
-                />
-                <SocialMedia
-                  name="LinkedIn"
-                  profileUrl={techProfile.linkedin}
-                  style={{ flex: 1 }}
-                />
-              </View>
             </Section>
           </View>
         </View>
